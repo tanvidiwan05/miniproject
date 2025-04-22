@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top Header -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/top" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_marginTop="-50dp"
+            android:text="Certify"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <!-- Scrollable Form -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <!-- Workshop Title -->
+            <EditText
+                android:id="@+id/workshop_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title of Workshop"
+                android:padding="10dp" />
+
+            <!-- Duration -->
+            <EditText
+                android:id="@+id/duration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Duration (e.g., 2 weeks)"
+                android:padding="10dp" />
+
+            <!-- Type Dropdown -->
+            <Spinner
+                android:id="@+id/type_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp" />
+
+            <!-- From Date -->
+            <EditText
+                android:id="@+id/from_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="From Date (DD/MM/YYYY)"
+                android:focusable="false"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/to_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="To Date (DD/MM/YYYY)"
+                android:focusable="false"
+                android:padding="10dp" />
+
+
+            <!-- Venue -->
+            <EditText
+                android:id="@+id/venue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Venue"
+                android:padding="10dp" />
+
+            <!-- Sponsored By -->
+            <EditText
+                android:id="@+id/sponsored_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sponsored By"
+                android:padding="10dp" />
+
+            <!-- Certificate Image -->
+            <ImageView
+                android:id="@+id/certificate_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <!-- Upload Image Button -->
+            <Button
+                android:id="@+id/upload_image_button"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/rounded_button_primary"
+                android:fontFamily="@font/font3"
+                android:letterSpacing="0.05"
+                android:text="Upload Image"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/submit_certificate_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button_primary"
+                android:fontFamily="@font/font3"
+                android:letterSpacing="0.05"
+                android:text="Submit Certificate"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -16,6 +16,30 @@
         android:theme="@style/Theme.Credify"
         tools:targetApi="31">
         <activity
+            android:name=".teacher_profile"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_view"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_upload"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_homepage"
+            android:exported="false" />
+        <activity
+            android:name=".admin_dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".admin_login"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_register"
+            android:exported="false" />
+        <activity
+            android:name=".teacher_login"
+            android:exported="false" />
+        <activity
             android:name=".ViewCertificatesActivity"
             android:exported="false" />
         <activity

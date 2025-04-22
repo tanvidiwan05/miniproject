@@ -23,7 +23,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-public class StudentHomepage extends AppCompatActivity {
+public class teacher_homepage extends AppCompatActivity {
 
     CardView uploadCertificate,viewcertifiacte;
     TextView welcomeText;
@@ -48,7 +48,7 @@ public class StudentHomepage extends AppCompatActivity {
 
         if (user != null) {
             String userId = user.getUid();
-            databaseReference = FirebaseDatabase.getInstance().getReference("Students").child(userId);
+            databaseReference = FirebaseDatabase.getInstance().getReference("Teachers").child(userId);
 
             // Fetch user name from Firebase
             databaseReference.addListenerForSingleValueEvent(new ValueEventListener() {
@@ -58,7 +58,7 @@ public class StudentHomepage extends AppCompatActivity {
                         String name = snapshot.child("fullName").getValue(String.class);
 
                         if (name != null && !name.isEmpty()) {
-                            welcomeText.setText("Welcome, " + name + "!");
+                            welcomeText.setText("Welcome, " + name + " Sir !");
                         } else {
                             welcomeText.setText("Welcome, User!");
                         }
@@ -69,7 +69,7 @@ public class StudentHomepage extends AppCompatActivity {
 
                 @Override
                 public void onCancelled(@NonNull DatabaseError error) {
-                    Toast.makeText(StudentHomepage.this, "Failed to fetch name!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(teacher_homepage.this, "Failed to fetch name!", Toast.LENGTH_SHORT).show();
                 }
             });
         } else {
@@ -81,7 +81,7 @@ public class StudentHomepage extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StudentHomepage.this, profile.class);
+                Intent intent = new Intent(teacher_homepage.this, teacher_profile.class);
                 startActivity(intent);
             }
         });
@@ -89,14 +89,14 @@ public class StudentHomepage extends AppCompatActivity {
         uploadCertificate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StudentHomepage.this, UploadCertificateActivity.class);
+                Intent intent = new Intent(teacher_homepage.this, teacher_upload.class);
                 startActivity(intent);
             }
         });
         viewcertifiacte.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(StudentHomepage.this, ViewCertificatesActivity.class);
+                Intent intent = new Intent(teacher_homepage.this, teacher_view.class);
                 startActivity(intent);
             }
         });

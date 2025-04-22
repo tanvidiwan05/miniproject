@@ -60,7 +60,7 @@
             android:layout_marginStart="170dp"
             android:layout_marginTop="120dp"
             android:textColor="@color/black"
-            android:text="Student" />
+            android:text="Teacher" />
     </FrameLayout>
 
     <LinearLayout

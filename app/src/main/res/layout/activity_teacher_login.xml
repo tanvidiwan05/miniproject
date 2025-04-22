@@ -54,24 +54,22 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:layout_marginBottom="2dp"
-
             android:fontFamily="@font/font3"
             android:gravity="center"
             android:text="Login"
             android:textColor="@color/primary1"
             android:textSize="40sp"
             android:textStyle="bold" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/font3"
             android:gravity="center"
-            android:text="as Student"
+            android:text="as Teacher"
             android:textColor="@color/black"
             android:textSize="25sp"
             android:layout_marginBottom="32dp"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="110dp"
             />
 
         <LinearLayout

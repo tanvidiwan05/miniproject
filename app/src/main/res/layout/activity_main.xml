@@ -23,7 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="24dp"
-        android:layout_marginTop="20dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-74dp">
 
         <!-- Logo/Image at the top -->
         <ImageView
@@ -85,7 +86,7 @@
             android:id="@+id/btnStudentLogin"
             android:layout_width="150dp"
             android:layout_height="50dp"
-            android:layout_marginTop="64dp"
+            android:layout_marginTop="28dp"
             android:background="@drawable/rounded_button_primary"
             android:fontFamily="@font/font3"
             android:letterSpacing="0.05"
@@ -105,15 +106,33 @@
             android:layout_marginTop="12dp"
             android:background="@drawable/rounded_button_primary"
 
-            android:text="Faculty"
             android:fontFamily="@font/font3"
+            android:letterSpacing="0.05"
+            android:text="Teacher"
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="bold"
-            android:letterSpacing="0.05"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/btnStudentLogin" />
+
+        <Button
+            android:id="@+id/btnadmin"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button_primary"
+            android:fontFamily="@font/font3"
+            android:letterSpacing="0.05"
+            android:text="Admin"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnFacultyLogin"
+            app:layout_constraintVertical_bias="0.134" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>

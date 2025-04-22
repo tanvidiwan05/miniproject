@@ -44,4 +44,15 @@
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
     <string name="title_activity_student_home">StudentHome</string>
+
+    <string-array name="certificate_types">
+        <item>FDP</item>
+        <item>ISTE</item>
+        <item>NPTEL</item>
+        <item>AICTE</item>
+        <item>SJTP</item>
+        <item>Other</item>
+    </string-array>
+
 </resources>
+
