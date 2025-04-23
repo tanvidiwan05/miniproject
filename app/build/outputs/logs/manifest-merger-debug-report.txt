@@ -1,0 +1,795 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:2:1-58:12
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:2:1-58:12
+MERGED from [androidx.databinding:viewbinding:8.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2040ce014f8196f432dd406da0efdea2/transformed/viewbinding-8.2.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:17:1-75:12
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:15:1-38:12
+MERGED from [androidx.navigation:navigation-common:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cdb6fc92467fc4f1b0dcdd4b41ac70f0/transformed/navigation-common-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/98b08f7f5f46b50b0ec1458bae6dee0f/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2ee7f7f5862ff01791b3a38c74619fcb/transformed/navigation-fragment-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/794373c3a8eb3a9567bcf65fb364b7a4/transformed/navigation-ui-2.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8f0109dda9b4e153d0bb3d2e6dd78558/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/66100f47621c73284d363cb64f4b33e8/transformed/constraintlayout-2.2.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c4edea67a038e118b78794a189533a44/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d3a6e4ddc9ca854fc773343c96e9b2bf/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f15fa8943e0c472721d5f75c3e591243/transformed/glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f3ac866f820e201a8f392c64da48030/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8b23d4a4764d17c7bef83a06c94cb0e5/transformed/firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cf5d621b8d7d3cd85edff338b568c19a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d08f7d6e36b9f7a3106097478a569ad1/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f84411a59f070bec15151605f8b050bf/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:17:1-44:12
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/27fe9bf5157288b28da64dfe97820bea/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9ebea8731b752981e9de518b4e844598/transformed/play-services-fido-20.1.0/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b73fba50faa5fce8415aa630bbcb8c37/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6f1285922cd6afa09d562def5cde6c1a/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:integrity:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ec86def34cbba26cf0e2f1311196eb43/transformed/integrity-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/a06b4247eb62a9b26d68654d464c0d4b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/99b4b9a03e29dedc90fa238fd1bec41b/transformed/activity-ktx-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.8.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9d7353472e57e410889c49474f90e131/transformed/activity-1.8.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ea2f7e6a90972c98319fba90e16c5e51/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.transition:transition:1.5.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/599bdc29849155e13d410ce3d67140b7/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/42caa26c14236224f99a446ca4d2656f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e682ca5a15e8bf8d8221a7d588a538d1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4a5d8c43237f4d8eee355f6994a1ea2f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f6db714adb5b211110dd6b2974b56bd3/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6d52996e0f281beb3368db7b34813b3e/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/0a956d50b6acfb3110f8a3f8ddbf25e9/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/dc106b411399af2b126e8003b839e74c/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/0ca1a7e17b33ebe30e9e2b6cd57677f7/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/149486daf7cf25c322fedec26044b225/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/fa4095b1888dd1a953fd6bb965b7b590/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5b4838098dc1b6d027f22755c42a0206/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9445c127513013cd74d47227fef26d4d/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d4e793193c14549825798b32a21e6775/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/49ed7fc15f435d8796de255e03af7b54/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b533627c7ef498364e5bbdc4ebb68d6b/transformed/fragment-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9a05d6abc4fad47640e0fbeb203b46be/transformed/fragment-ktx-1.6.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/7858ba60ac372f9b36629eb1ef55cbf0/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/01928deab657582aa53383fd0136b314/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cc0c28aae64c52176913b2f3bb71f0e7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bc927db767159351a9545d4b0070f709/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/057009ae54d7a784ccd6fc39631476e2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5116e706c970ee17535bbdf175185558/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/46fbbba6a2ad8e4b0d1aa95ebc384b0f/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2105834f0678eb02bf9001bdd19b5c56/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/df44bc16f681c4ee640478026fbd4d0c/transformed/browser-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/99117a0eed83df216b7a28bb206d9fc6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/32385dfe28dd25da11f26e32de8be8a9/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8a542687a7bdebe87f7003eaf87f93f5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5e7b2ef6e2bc0d6f98f0f25c429e21d4/transformed/exifinterface-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/58ffaf35ccb2ae7212227d8c6ee1dcc7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/77391a7514408298d233dc3c46d3cf42/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4b9dfc30691b7000f30f2badad7e025b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/636d15cece4102d2f32ec8a64d26e500/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/50c3c939ede33ed59b9484b5fd5b850c/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9b9c9ad27efe9bdf8b73ddb8a29ea37d/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1f2ca884119c792ece09a0750a7cf44/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/79292f64425405eb7f4719cf948ffe83/transformed/googleid-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4fd0275145007e92d65a03792857dd5a/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [io.grpc:grpc-android:1.62.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/11e33a894d312447857c51bb04849035/transformed/grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f68b42f587eba306a48d077a7b5bf37c/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:2:1-21:12
+	package
+		INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:5:5-80
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:5:22-77
+uses-permission#android.permission.READ_MEDIA_IMAGES
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:6:22-73
+application
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:8:5-56:19
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:8:5-56:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:28:5-73:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.android.material:material:1.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8f0109dda9b4e153d0bb3d2e6dd78558/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8f0109dda9b4e153d0bb3d2e6dd78558/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/66100f47621c73284d363cb64f4b33e8/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/66100f47621c73284d363cb64f4b33e8/transformed/constraintlayout-2.2.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f15fa8943e0c472721d5f75c3e591243/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f15fa8943e0c472721d5f75c3e591243/transformed/glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f3ac866f820e201a8f392c64da48030/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f3ac866f820e201a8f392c64da48030/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cf5d621b8d7d3cd85edff338b568c19a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cf5d621b8d7d3cd85edff338b568c19a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:23:5-42:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9ebea8731b752981e9de518b4e844598/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9ebea8731b752981e9de518b4e844598/transformed/play-services-fido-20.1.0/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.play:integrity:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ec86def34cbba26cf0e2f1311196eb43/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [com.google.android.play:integrity:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ec86def34cbba26cf0e2f1311196eb43/transformed/integrity-1.3.0/AndroidManifest.xml:5:5-6:19
+MERGED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/49ed7fc15f435d8796de255e03af7b54/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/49ed7fc15f435d8796de255e03af7b54/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8a542687a7bdebe87f7003eaf87f93f5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8a542687a7bdebe87f7003eaf87f93f5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4b9dfc30691b7000f30f2badad7e025b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4b9dfc30691b7000f30f2badad7e025b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:11:5-19:19
+	android:extractNativeLibs
+		INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:15:9-35
+	android:label
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:13:9-41
+	android:fullBackupContent
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:11:9-54
+	android:roundIcon
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:14:9-54
+	tools:targetApi
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:17:9-29
+	android:icon
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:12:9-43
+	android:allowBackup
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:16:9-45
+	android:dataExtractionRules
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:10:9-65
+activity#com.example.credify.ViewCertificatesActivity
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:19:13-53
+activity#com.example.credify.profile
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:22:13-36
+activity#com.example.credify.UploadCertificateActivity
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:25:13-54
+activity#com.example.credify.StudentHomepage
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:28:13-44
+activity#com.example.credify.StudentHome
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:30:9-34:52
+	android:label
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:33:13-64
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:32:13-37
+	android:theme
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:34:13-49
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:31:13-40
+activity#com.example.credify.StudentPageActivity
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:35:9-37:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:36:13-48
+activity#com.example.credify.RegisterActivity
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:38:9-40:39
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:40:13-36
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:39:13-45
+activity#com.example.credify.rounded_edittext
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:42:13-45
+activity#com.example.credify.LoginActivity
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:44:9-46:40
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:45:13-42
+activity#com.example.credify.MainActivity
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:47:9-55:20
+	android:exported
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:49:13-36
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:48:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:50:13-54:29
+action#android.intent.action.MAIN
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:51:17-69
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:51:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:53:17-77
+	android:name
+		ADDED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml:53:27-74
+uses-sdk
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2040ce014f8196f432dd406da0efdea2/transformed/viewbinding-8.2.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2040ce014f8196f432dd406da0efdea2/transformed/viewbinding-8.2.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:21:5-23:151
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cdb6fc92467fc4f1b0dcdd4b41ac70f0/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cdb6fc92467fc4f1b0dcdd4b41ac70f0/transformed/navigation-common-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/98b08f7f5f46b50b0ec1458bae6dee0f/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/98b08f7f5f46b50b0ec1458bae6dee0f/transformed/navigation-runtime-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2ee7f7f5862ff01791b3a38c74619fcb/transformed/navigation-fragment-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2ee7f7f5862ff01791b3a38c74619fcb/transformed/navigation-fragment-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/794373c3a8eb3a9567bcf65fb364b7a4/transformed/navigation-ui-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/794373c3a8eb3a9567bcf65fb364b7a4/transformed/navigation-ui-2.6.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8f0109dda9b4e153d0bb3d2e6dd78558/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8f0109dda9b4e153d0bb3d2e6dd78558/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/66100f47621c73284d363cb64f4b33e8/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/66100f47621c73284d363cb64f4b33e8/transformed/constraintlayout-2.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c4edea67a038e118b78794a189533a44/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c4edea67a038e118b78794a189533a44/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d3a6e4ddc9ca854fc773343c96e9b2bf/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d3a6e4ddc9ca854fc773343c96e9b2bf/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f15fa8943e0c472721d5f75c3e591243/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f15fa8943e0c472721d5f75c3e591243/transformed/glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f3ac866f820e201a8f392c64da48030/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f3ac866f820e201a8f392c64da48030/transformed/firebase-auth-interop-20.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8b23d4a4764d17c7bef83a06c94cb0e5/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8b23d4a4764d17c7bef83a06c94cb0e5/transformed/firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cf5d621b8d7d3cd85edff338b568c19a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cf5d621b8d7d3cd85edff338b568c19a/transformed/firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d08f7d6e36b9f7a3106097478a569ad1/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d08f7d6e36b9f7a3106097478a569ad1/transformed/firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f84411a59f070bec15151605f8b050bf/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f84411a59f070bec15151605f8b050bf/transformed/credentials-1.2.0-rc01/AndroidManifest.xml:5:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:21:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/27fe9bf5157288b28da64dfe97820bea/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/27fe9bf5157288b28da64dfe97820bea/transformed/play-services-auth-api-phone-18.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9ebea8731b752981e9de518b4e844598/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-fido:20.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9ebea8731b752981e9de518b4e844598/transformed/play-services-fido-20.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b73fba50faa5fce8415aa630bbcb8c37/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.4] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b73fba50faa5fce8415aa630bbcb8c37/transformed/play-services-auth-base-18.0.4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6f1285922cd6afa09d562def5cde6c1a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6f1285922cd6afa09d562def5cde6c1a/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ec86def34cbba26cf0e2f1311196eb43/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [com.google.android.play:integrity:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ec86def34cbba26cf0e2f1311196eb43/transformed/integrity-1.3.0/AndroidManifest.xml:4:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/a06b4247eb62a9b26d68654d464c0d4b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/a06b4247eb62a9b26d68654d464c0d4b/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/99b4b9a03e29dedc90fa238fd1bec41b/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.8.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/99b4b9a03e29dedc90fa238fd1bec41b/transformed/activity-ktx-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9d7353472e57e410889c49474f90e131/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.8.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9d7353472e57e410889c49474f90e131/transformed/activity-1.8.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ea2f7e6a90972c98319fba90e16c5e51/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/ea2f7e6a90972c98319fba90e16c5e51/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/599bdc29849155e13d410ce3d67140b7/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/599bdc29849155e13d410ce3d67140b7/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/42caa26c14236224f99a446ca4d2656f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/42caa26c14236224f99a446ca4d2656f/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e682ca5a15e8bf8d8221a7d588a538d1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e682ca5a15e8bf8d8221a7d588a538d1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4a5d8c43237f4d8eee355f6994a1ea2f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4a5d8c43237f4d8eee355f6994a1ea2f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f6db714adb5b211110dd6b2974b56bd3/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f6db714adb5b211110dd6b2974b56bd3/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6d52996e0f281beb3368db7b34813b3e/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6d52996e0f281beb3368db7b34813b3e/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/0a956d50b6acfb3110f8a3f8ddbf25e9/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/0a956d50b6acfb3110f8a3f8ddbf25e9/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/dc106b411399af2b126e8003b839e74c/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/dc106b411399af2b126e8003b839e74c/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/0ca1a7e17b33ebe30e9e2b6cd57677f7/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/0ca1a7e17b33ebe30e9e2b6cd57677f7/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/149486daf7cf25c322fedec26044b225/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/149486daf7cf25c322fedec26044b225/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/fa4095b1888dd1a953fd6bb965b7b590/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/fa4095b1888dd1a953fd6bb965b7b590/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5b4838098dc1b6d027f22755c42a0206/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5b4838098dc1b6d027f22755c42a0206/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9445c127513013cd74d47227fef26d4d/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9445c127513013cd74d47227fef26d4d/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d4e793193c14549825798b32a21e6775/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/d4e793193c14549825798b32a21e6775/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/49ed7fc15f435d8796de255e03af7b54/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/49ed7fc15f435d8796de255e03af7b54/transformed/play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b533627c7ef498364e5bbdc4ebb68d6b/transformed/fragment-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b533627c7ef498364e5bbdc4ebb68d6b/transformed/fragment-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9a05d6abc4fad47640e0fbeb203b46be/transformed/fragment-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9a05d6abc4fad47640e0fbeb203b46be/transformed/fragment-ktx-1.6.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/7858ba60ac372f9b36629eb1ef55cbf0/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/7858ba60ac372f9b36629eb1ef55cbf0/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/01928deab657582aa53383fd0136b314/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/01928deab657582aa53383fd0136b314/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cc0c28aae64c52176913b2f3bb71f0e7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cc0c28aae64c52176913b2f3bb71f0e7/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bc927db767159351a9545d4b0070f709/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bc927db767159351a9545d4b0070f709/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/057009ae54d7a784ccd6fc39631476e2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/057009ae54d7a784ccd6fc39631476e2/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5116e706c970ee17535bbdf175185558/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5116e706c970ee17535bbdf175185558/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/46fbbba6a2ad8e4b0d1aa95ebc384b0f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/46fbbba6a2ad8e4b0d1aa95ebc384b0f/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2105834f0678eb02bf9001bdd19b5c56/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2105834f0678eb02bf9001bdd19b5c56/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/df44bc16f681c4ee640478026fbd4d0c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/df44bc16f681c4ee640478026fbd4d0c/transformed/browser-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/99117a0eed83df216b7a28bb206d9fc6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/99117a0eed83df216b7a28bb206d9fc6/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/32385dfe28dd25da11f26e32de8be8a9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/32385dfe28dd25da11f26e32de8be8a9/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8a542687a7bdebe87f7003eaf87f93f5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/8a542687a7bdebe87f7003eaf87f93f5/transformed/gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5e7b2ef6e2bc0d6f98f0f25c429e21d4/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5e7b2ef6e2bc0d6f98f0f25c429e21d4/transformed/exifinterface-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/58ffaf35ccb2ae7212227d8c6ee1dcc7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/58ffaf35ccb2ae7212227d8c6ee1dcc7/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/77391a7514408298d233dc3c46d3cf42/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/77391a7514408298d233dc3c46d3cf42/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4b9dfc30691b7000f30f2badad7e025b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4b9dfc30691b7000f30f2badad7e025b/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/636d15cece4102d2f32ec8a64d26e500/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/636d15cece4102d2f32ec8a64d26e500/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/50c3c939ede33ed59b9484b5fd5b850c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/50c3c939ede33ed59b9484b5fd5b850c/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9b9c9ad27efe9bdf8b73ddb8a29ea37d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9b9c9ad27efe9bdf8b73ddb8a29ea37d/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1f2ca884119c792ece09a0750a7cf44/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1f2ca884119c792ece09a0750a7cf44/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/79292f64425405eb7f4719cf948ffe83/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.libraries.identity.googleid:googleid:1.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/79292f64425405eb7f4719cf948ffe83/transformed/googleid-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4fd0275145007e92d65a03792857dd5a/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/4fd0275145007e92d65a03792857dd5a/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/11e33a894d312447857c51bb04849035/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/11e33a894d312447857c51bb04849035/transformed/grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f68b42f587eba306a48d077a7b5bf37c/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f68b42f587eba306a48d077a7b5bf37c/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:23:9-148
+	android:targetSdkVersion
+		INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tanvi-diwan/Desktop/miniproject-master(1)/miniproject-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:25:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:8:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/11e33a894d312447857c51bb04849035/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/11e33a894d312447857c51bb04849035/transformed/grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:26:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:29:9-46:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:31:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:33:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:34:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:30:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:35:13-45:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:36:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:38:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:39:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:41:17-44:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:43:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:42:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:44:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:47:9-64:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:49:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:51:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:50:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:52:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:48:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:53:13-63:29
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:66:9-72:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:68:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:67:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:69:13-71:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:71:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:23.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/bcdb6e2f8f6964e9ef8ae69a5db03a08/transformed/firebase-auth-23.1.0/AndroidManifest.xml:70:17-109
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9209d877e9523254b3ebec88095d5a8c/transformed/firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/80aa00ba882efa43f752f2918747d117/transformed/firebase-database-21.0.0/AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3bcae18a665ff202278d79d8c2cef18d/transformed/firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/3b2398b86792d604f61f31d203bd9692/transformed/firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/2f2c624c04341e0e8806404021aed605/transformed/firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f2e128d1585c049ab61056152c240fbc/transformed/firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+service#androidx.credentials.playservices.CredentialProviderMetadataHolder
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:24:9-32:19
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:26:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:27:13-37
+	tools:ignore
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:28:13-60
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:25:13-94
+meta-data#androidx.credentials.CREDENTIAL_PROVIDER_KEY
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:29:13-31:104
+	android:value
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:31:17-101
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:30:17-76
+activity#androidx.credentials.playservices.HiddenActivity
+ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:34:9-41:20
+	android:fitsSystemWindows
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:39:13-45
+	android:enabled
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:38:13-37
+	android:configChanges
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:36:13-87
+	android:theme
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:40:13-48
+	android:name
+		ADDED from [androidx.credentials:credentials-play-services-auth:1.2.0-rc01] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b194ee44b9b4256b4858a19945e26ffd/transformed/credentials-play-services-auth-1.2.0-rc01/AndroidManifest.xml:35:13-76
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.7.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5d6d030a0b100363ac13067acf0bec61/transformed/play-services-auth-20.7.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/f9622aced647eeb5708024d82dcdc514/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:5-98
+	android:name
+		ADDED from [com.google.android.recaptcha:recaptcha:18.5.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/487b6f8f9edc5657407bb563c65c3480/transformed/recaptcha-18.5.1/AndroidManifest.xml:9:22-95
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/5a1350c7f73aac9b462ef0531fcf7514/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/b86178513d1a30ab043ee371aa34dd88/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/6ef634ffec0aa68601d85989679e07c8/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/884988584c8900a7eafda686fcbe0623/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/9fb39534a02813d867df7e6ea757fa02/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.credify.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.credify.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/cde61e7b8ce296e84f69f94c9c0bf6c6/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/c1d6b95bce3cb4675464b7ceb71aee1e/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+activity#com.google.android.play.core.common.PlayCoreDialogWrapperActivity
+ADDED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:14:9-18:65
+	android:stateNotNeeded
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:17:13-42
+	android:exported
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:16:13-37
+	android:theme
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:18:13-62
+	android:name
+		ADDED from [com.google.android.play:core-common:2.0.3] /home/tanvi-diwan/AndroidStudioProjects/lstvw/caches/transforms-3/e693cf8460935e336e38add348b69b25/transformed/core-common-2.0.3/AndroidManifest.xml:15:13-93
