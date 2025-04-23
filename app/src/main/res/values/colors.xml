@@ -1,0 +1,29 @@
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#CCCCCC</color>
+    <color name="primary1"> #1B1D3E</color>
+    <color name="primary">#2196F3</color> <!-- Blue color -->
+    <color name="primary_dark">#1976D2</color> <!-- Darker blue color -->
+
+    <color name="card_bg">#F8F9FA</color>  <!-- Light Gray Background -->
+    <color name="text_primary">#1E1E1E</color>  <!-- Dark Text -->
+    <color name="text_secondary">#5F6368</color>  <!-- Medium Gray -->
+    <color name="text_highlight">#1565C0</color>  <!-- Deep Blue -->
+
+<!--     Primary Colors -->
+<!--    <color name="dark_blue">#1A237E</color> &lt;!&ndash; Background color for the curved view &ndash;&gt;-->
+<!--    <color name="pink">#E91E63</color>      &lt;!&ndash; Button background color &ndash;&gt;-->
+<!--    <color name="light_gray">#F5F5F5</color> &lt;!&ndash; Overall background color &ndash;&gt;-->
+
+<!--    &lt;!&ndash; Text Colors &ndash;&gt;-->
+<!--    <color name="white">#FFFFFF</color>     &lt;!&ndash; Text on buttons &ndash;&gt;-->
+<!--    <color name="black">#000000</color>     &lt;!&ndash; Main text color &ndash;&gt;-->
+
+<!--    &lt;!&ndash; Other Colors &ndash;&gt;-->
+<!--    <color name="primary_dark">#3E4EB8</color>-->
+   <!-- White -->
+
+
+</resources>
+

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <!-- Background Image (Full Screen & Slightly Lower) -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:translationY="40dp"
+        android:src="@drawable/_acm_cs_day_1"
+        android:contentDescription="Background Image"/>
+
+    <!-- Foreground Layout for Inputs -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="24dp"
+        android:layout_marginTop="20dp">
+
+        <!-- Logo/Image at the top -->
+
+        <!-- Certify App Name -->
+
+        <!-- Upload your Certificates Text (Moved Below 'Certify') -->
+
+        <!-- Student Login Button -->
+
+        <!-- Faculty Login Button -->
+
+        <ImageView
+            android:id="@+id/topImage"
+            android:layout_width="374dp"
+            android:layout_height="250dp"
+            android:contentDescription="App Logo"
+            android:src="@drawable/bg1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.545"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/certifyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="56dp"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:letterSpacing="0.1"
+            android:text="Certify"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/topImage" />
+
+        <TextView
+            android:id="@+id/uploadYourCertificatesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/font3"
+            android:gravity="center"
+            android:letterSpacing="0.05"
+            android:text=" A Smart Way to Store, Manage, and Showcase Your Achievements Effortlessly!"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/certifyText" />
+
+
+        <Button
+            android:id="@+id/btnStudentLogin"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="28dp"
+            android:background="@drawable/rounded_button_primary"
+            android:fontFamily="@font/font3"
+            android:letterSpacing="0.05"
+            android:text="Student"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/uploadYourCertificatesText" />
+
+        <Button
+            android:id="@+id/btnFacultyLogin"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_button_primary"
+
+            android:text="Faculty"
+            android:fontFamily="@font/font3"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.05"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnStudentLogin" />
+
+        <Button
+            android:id="@+id/btnAdminLogin2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/rounded_button_primary"
+
+            android:fontFamily="@font/font3"
+            android:letterSpacing="0.05"
+            android:text="Admin"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnStudentLogin" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
