@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- Top Header -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/top" />
+
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="cursive"
+            android:gravity="center"
+            android:layout_marginTop="-50dp"
+            android:text="Certify"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold"
+           />
+    </FrameLayout>
+
+    <!-- Scrollable Form -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:fillViewport="true"
+        android:padding="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <EditText
+                android:id="@+id/certificate_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Certificate Name"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/issued_by"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Issued By"
+                android:padding="10dp" />
+
+            <EditText
+                android:id="@+id/issue_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Issue Date (DD/MM/YYYY)"
+                android:padding="10dp" />
+
+            <RadioGroup
+                android:id="@+id/category_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/tech_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tech" />
+
+                <RadioButton
+                    android:id="@+id/nontech_radio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Non-Tech" />
+            </RadioGroup>
+
+            <ImageView
+                android:id="@+id/certificate_image"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="10dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_launcher_background" />
+
+            <Button
+                android:id="@+id/upload_image_button"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button_primary"
+                android:fontFamily="@font/font3"
+                android:letterSpacing="0.05"
+                android:layout_marginTop="20sp"
+                android:text="Upload Image"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/submit_certificate_button"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_button_primary"
+                android:fontFamily="@font/font3"
+                android:letterSpacing="0.05"
+
+                android:text="Submit Certificate"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
