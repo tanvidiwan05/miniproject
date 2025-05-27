@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/certificate_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_background"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Info section -->
+        <TextView
+            android:id="@+id/certificate_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Certificate Name"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/issued_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issued By"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:paddingTop="2dp"/>
+
+        <TextView
+            android:id="@+id/issue_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Issue Date"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:paddingTop="2dp"/>
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="@color/text_highlight"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:paddingTop="4dp"/>
+
+        <!-- Action buttons: delete and download -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/delete_certificate"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_delete"
+                android:contentDescription="Delete"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/download_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                android:contentDescription="Download" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

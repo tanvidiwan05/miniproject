@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <ImageView
+            android:id="@+id/certificate_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/image_background"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Horizontal layout for text and download button -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Info section -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/title_workshop"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Title of Workshop"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/text_primary"
+                    android:paddingTop="4dp"/>
+
+                <TextView
+                    android:id="@+id/duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Duration"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:paddingTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/venue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Venue"
+                    android:textColor="@color/text_secondary"
+                    android:textSize="14sp"
+                    android:paddingTop="2dp"/>
+
+                <TextView
+                    android:id="@+id/sponsored_by"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sponsored By"
+                    android:textColor="@color/text_highlight"
+                    android:textStyle="italic"
+                    android:textSize="14sp"
+                    android:paddingTop="4dp"/>
+            </LinearLayout>
+
+            <!-- Download ImageButton -->
+            <ImageView
+                android:id="@+id/delete_certificate"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_delete"
+                android:contentDescription="Delete"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="8dp"/>
+
+            <ImageButton
+                android:id="@+id/download_button"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/download"
+                android:scaleType="fitCenter"
+                android:contentDescription="Download"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
