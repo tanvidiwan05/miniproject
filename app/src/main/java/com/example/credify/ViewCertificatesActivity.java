@@ -90,6 +90,24 @@ public class ViewCertificatesActivity extends AppCompatActivity {
         issueDate.setText("Date: " + certificate.getIssue_date());
         category.setText("Category: " + certificate.getCategory());
 
+
+        TextView statusBadge = certificateView.findViewById(R.id.status_badge);
+
+// Show status only, not clickable for students
+        String status = certificate.getVerificationStatus();
+        switch (status) {
+            case "verified":
+                statusBadge.setText("✅ Verified");
+                break;
+            case "rejected":
+                statusBadge.setText("❌ Rejected");
+                break;
+            default:
+                statusBadge.setText("⏳ Pending");
+                break;
+        }
+
+
         // Load image with Glide
         Glide.with(this)
                 .load(certificate.getCertificate_url())

@@ -11,6 +11,10 @@
     <color name="text_secondary">#5F6368</color>  <!-- Medium Gray -->
     <color name="text_highlight">#1565C0</color>  <!-- Deep Blue -->
     <color name="themeblue">#052c60</color>
+    <color name="status_bg">#E0E0E0</color>
+
+
+
     <!--     Primary Colors -->
 <!--    <color name="dark_blue">#1A237E</color> &lt;!&ndash; Background color for the curved view &ndash;&gt;-->
 <!--    <color name="pink">#E91E63</color>      &lt;!&ndash; Button background color &ndash;&gt;-->

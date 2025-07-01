@@ -12,6 +12,7 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -92,10 +93,13 @@ public class ViewStudentCertificatesAdmin extends AppCompatActivity {
         issueDate.setText("Date: " + certificate.getIssue_date());
         category.setText("Category: " + certificate.getCategory());
 
-        Glide.with(this)
-                .load(certificate.getCertificate_url())
-                .placeholder(R.drawable.ic_launcher_background)
-                .into(certificateImage);
+
+        if (!isDestroyed() && !isFinishing()) {
+            Glide.with(this)
+                    .load(certificate.getCertificate_url())
+                    .placeholder(R.drawable.ic_launcher_background)
+                    .into(certificateImage);
+        }
 
         // Set delete button click listener
         deleteButton.setOnClickListener(v -> deleteCertificate(certificate.getCertificateId()));
@@ -104,7 +108,55 @@ public class ViewStudentCertificatesAdmin extends AppCompatActivity {
         downloadButton.setOnClickListener(v -> downloadImage(certificate.getCertificate_url(), certificate.getName()));
 
         certificateContainer.addView(certificateView);
+        TextView statusBadge = certificateView.findViewById(R.id.status_badge);
+
+// Set badge text based on status
+        String status = certificate.getVerificationStatus();
+        switch (status) {
+            case "verified":
+                statusBadge.setText("✅ Verified");
+                break;
+            case "rejected":
+                statusBadge.setText("❌ Rejected");
+                break;
+            default:
+                statusBadge.setText("⏳ Pending");
+                break;
+        }
+
+// Make badge clickable only if status is pending
+        if ("pending".equalsIgnoreCase(status)) {
+            statusBadge.setOnClickListener(v -> showStatusPopup(v, certificate.getCertificateId()));
+        }
+
+
+
     }
+
+    private void showStatusPopup(View anchor, String certId) {
+        PopupMenu popup = new PopupMenu(this, anchor);
+        popup.getMenuInflater().inflate(R.menu.status_menu, popup.getMenu());
+
+        popup.setOnMenuItemClickListener(item -> {
+            String newStatus = "";
+            if (item.getItemId() == R.id.action_verify) {
+                newStatus = "verified";
+            } else if (item.getItemId() == R.id.action_reject) {
+                newStatus = "rejected";
+            }
+
+            if (!newStatus.isEmpty()) {
+                studentsRef.child(certId).child("verificationStatus").setValue(newStatus)
+                        .addOnSuccessListener(unused -> Toast.makeText(this, "Status updated", Toast.LENGTH_SHORT).show())
+                        .addOnFailureListener(e -> Toast.makeText(this, "Failed to update", Toast.LENGTH_SHORT).show());
+            }
+
+            return true;
+        });
+
+        popup.show();
+    }
+
 
     private void deleteCertificate(String certificateId) {
         DatabaseReference certRef = studentsRef.child(certificateId);

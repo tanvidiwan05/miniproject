@@ -5,11 +5,13 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.PopupMenu;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -46,9 +48,12 @@ public class ViewFacultyCertificatesAdmin extends AppCompatActivity {
     }
 
     private void fetchCertificates() {
-        facultyRef.addListenerForSingleValueEvent(new ValueEventListener() {
+        facultyRef.addValueEventListener(new ValueEventListener() {
+
+//        facultyRef.addListenerForSingleValueEvent(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
+
                 certificateContainer.removeAllViews();
 
                 if (!snapshot.exists()) {
@@ -63,6 +68,8 @@ public class ViewFacultyCertificatesAdmin extends AppCompatActivity {
                         addCertificateToLayout(cert);
                     }
                 }
+                Log.d("CertDebug", "Snapshot: " + snapshot.toString());
+
             }
 
             @Override
@@ -88,10 +95,34 @@ public class ViewFacultyCertificatesAdmin extends AppCompatActivity {
         venue.setText("Venue: " + cert.venue);
         sponsored.setText("Sponsored by: " + cert.sponsored_by);
 
-        Glide.with(this)
-                .load(cert.certificate_url)
-                .placeholder(R.drawable.ic_launcher_background)
-                .into(image);
+        TextView statusBadge = certView.findViewById(R.id.status_badge);
+
+// Set badge text based on status
+        String status = cert.getVerificationStatus();
+        switch (status) {
+            case "verified":
+                statusBadge.setText("✅ Verified");
+                break;
+            case "rejected":
+                statusBadge.setText("❌ Rejected");
+                break;
+            default:
+                statusBadge.setText("⏳ Pending");
+                break;
+        }
+
+// Allow status change only if it's still pending
+        if ("pending".equalsIgnoreCase(status)) {
+            statusBadge.setOnClickListener(v -> showStatusPopup(v, cert.getCertificateId()));
+        }
+
+
+        if (!isDestroyed() && !isFinishing()) {
+            Glide.with(this)
+                    .load(cert.certificate_url)
+                    .placeholder(R.drawable.ic_launcher_background)
+                    .into(image);
+        }
 
         // Set download button click listener
         downloadButton.setOnClickListener(v -> downloadImage(cert.certificate_url, cert.workshop_title));
@@ -101,6 +132,31 @@ public class ViewFacultyCertificatesAdmin extends AppCompatActivity {
 
         certificateContainer.addView(certView);
     }
+
+    private void showStatusPopup(View anchor, String certId) {
+        PopupMenu popup = new PopupMenu(this, anchor);
+        popup.getMenuInflater().inflate(R.menu.status_menu, popup.getMenu());
+
+        popup.setOnMenuItemClickListener(item -> {
+            String newStatus = "";
+            if (item.getItemId() == R.id.action_verify) {
+                newStatus = "verified";
+            } else if (item.getItemId() == R.id.action_reject) {
+                newStatus = "rejected";
+            }
+
+            if (!newStatus.isEmpty()) {
+                facultyRef.child(certId).child("verificationStatus").setValue(newStatus)
+                        .addOnSuccessListener(unused -> Toast.makeText(this, "Status updated", Toast.LENGTH_SHORT).show())
+                        .addOnFailureListener(e -> Toast.makeText(this, "Failed to update", Toast.LENGTH_SHORT).show());
+            }
+
+            return true;
+        });
+
+        popup.show();
+    }
+
 
     private void deleteCertificate(String certificateId) {
         DatabaseReference certRef = facultyRef.child(certificateId);

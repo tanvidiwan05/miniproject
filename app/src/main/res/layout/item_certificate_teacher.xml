@@ -15,6 +15,7 @@
         android:orientation="vertical"
         android:padding="12dp">
 
+        <!-- Certificate Image -->
         <ImageView
             android:id="@+id/certificate_image"
             android:layout_width="match_parent"
@@ -23,60 +24,68 @@
             android:background="@drawable/image_background"
             android:layout_marginBottom="8dp"/>
 
-        <!-- Horizontal layout for text and download button -->
+        <!-- Info section -->
+        <TextView
+            android:id="@+id/title_workshop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Title of Workshop"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/text_primary"
+            android:paddingTop="4dp"/>
+
+        <TextView
+            android:id="@+id/duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Duration"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:paddingTop="2dp"/>
+
+        <TextView
+            android:id="@+id/venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Venue"
+            android:textColor="@color/text_secondary"
+            android:textSize="14sp"
+            android:paddingTop="2dp"/>
+
+        <TextView
+            android:id="@+id/sponsored_by"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sponsored By"
+            android:textColor="@color/text_highlight"
+            android:textStyle="italic"
+            android:textSize="14sp"
+            android:paddingTop="4dp"/>
+
+        <!-- ✅ Action row: status badge + delete + download -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:gravity="center_vertical">
+            android:gravity="end"
+            android:layout_marginTop="8dp"
+            android:baselineAligned="false">
 
-            <!-- Info section -->
-            <LinearLayout
-                android:layout_width="0dp"
+            <!-- Status badge -->
+            <TextView
+                android:id="@+id/status_badge"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:orientation="vertical">
+                android:padding="12dp"
+                android:text="⏳ Pending"
+                android:background="#E0E0E0"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="8dp" />
 
-                <TextView
-                    android:id="@+id/title_workshop"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Title of Workshop"
-                    android:textStyle="bold"
-                    android:textSize="18sp"
-                    android:textColor="@color/text_primary"
-                    android:paddingTop="4dp"/>
-
-                <TextView
-                    android:id="@+id/duration"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Duration"
-                    android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:paddingTop="2dp"/>
-
-                <TextView
-                    android:id="@+id/venue"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Venue"
-                    android:textColor="@color/text_secondary"
-                    android:textSize="14sp"
-                    android:paddingTop="2dp"/>
-
-                <TextView
-                    android:id="@+id/sponsored_by"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="Sponsored By"
-                    android:textColor="@color/text_highlight"
-                    android:textStyle="italic"
-                    android:textSize="14sp"
-                    android:paddingTop="4dp"/>
-            </LinearLayout>
-
-            <!-- Download ImageButton -->
+            <!-- Delete button -->
             <ImageView
                 android:id="@+id/delete_certificate"
                 android:layout_width="48dp"
@@ -86,20 +95,18 @@
                 android:contentDescription="Delete"
                 android:clickable="true"
                 android:focusable="true"
-                android:layout_marginEnd="8dp"/>
+                android:layout_marginEnd="8dp" />
 
+            <!-- Download button -->
             <ImageButton
                 android:id="@+id/download_button"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:layout_marginStart="8dp"
                 android:background="@android:color/transparent"
                 android:src="@drawable/download"
                 android:scaleType="fitCenter"
-                android:contentDescription="Download"
-                />
+                android:contentDescription="Download"/>
         </LinearLayout>
 
     </LinearLayout>
-
 </androidx.cardview.widget.CardView>

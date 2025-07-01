@@ -6,11 +6,11 @@ public class CertificateModel {
     private String issue_date;
     private String category;
     private String certificate_url;
-    private String certificateId; // 🔹 Added field for Firebase key
+    private String certificateId; // Firebase key
+    private String verificationStatus = "pending"; // default
 
-    public CertificateModel() {
-        // Default constructor required for Firebase
-    }
+    // 🔹 Required no-arg constructor
+    public CertificateModel() {}
 
     public CertificateModel(String name, String issued_by, String issue_date, String category, String certificate_url) {
         this.name = name;
@@ -18,6 +18,7 @@ public class CertificateModel {
         this.issue_date = issue_date;
         this.category = category;
         this.certificate_url = certificate_url;
+        this.verificationStatus = "pending";
     }
 
     public String getName() {
@@ -46,5 +47,13 @@ public class CertificateModel {
 
     public void setCertificateId(String certificateId) {
         this.certificateId = certificateId;
+    }
+
+    public String getVerificationStatus() {
+        return verificationStatus;
+    }
+
+    public void setVerificationStatus(String verificationStatus) {
+        this.verificationStatus = verificationStatus;
     }
 }

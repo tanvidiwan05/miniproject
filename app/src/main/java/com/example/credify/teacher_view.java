@@ -89,6 +89,23 @@ public class teacher_view extends AppCompatActivity {
         venue.setText("Venue: " + certificate.venue);
         sponsoredBy.setText("Sponsored By: " + certificate.sponsored_by);
 
+
+        TextView statusBadge = certificateView.findViewById(R.id.status_badge);
+
+// Show status only, not clickable for students
+        String status = certificate.getVerificationStatus();
+        switch (status) {
+            case "verified":
+                statusBadge.setText("✅ Verified");
+                break;
+            case "rejected":
+                statusBadge.setText("❌ Rejected");
+                break;
+            default:
+                statusBadge.setText("⏳ Pending");
+                break;
+        }
+
         Glide.with(this)
                 .load(certificate.certificate_url)
                 .placeholder(R.drawable.ic_launcher_background)
